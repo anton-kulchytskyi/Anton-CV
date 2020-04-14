@@ -1,0 +1,197 @@
+@media screen and (max-width: 950px) {
+    #wrapper {
+        width: 95%;
+        padding: 10px;
+    }
+    .border {
+        width: 170px;
+    }
+}
+@media screen and (max-width: 850px) {
+    #wrapper {
+        border: none;
+        box-shadow: none;
+    }
+    .fas.fa-book-reader, .fas.fa-briefcase, .fas.fa-shield-alt {
+        display: none;
+    }
+    .head-left-2 {
+        margin-right: 20px;
+    }
+    #work-experience {
+        justify-content: flex-start;
+    }
+    .head {
+        margin-bottom: 20px;
+    }
+    .reference {
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .reference article {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 770px) {
+    aside {
+        display: none;
+    }
+    header {
+        display: block;
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+    }
+    #header a {
+        margin: auto 0;
+    }
+    .fas.fa-bars {
+        font-size: 40px;
+        padding: 20px;
+        color: #fff;
+    }
+    .nav-active {
+        display: flex;
+        background-color: #08243a;
+        color: #fff;
+    }
+    .head {
+        justify-content: flex-end;
+    }
+    .head h3 {
+        margin-right: 10px;
+    }
+    footer .head {
+        justify-content: flex-start;
+    }
+    .icon-text {
+        padding-right: 10px;
+        justify-content: flex-end;
+    }
+    .languages-knowledge {
+        justify-content: flex-end;
+        
+    }
+    .languages {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .knowledge {
+        padding-right: 10px;
+    }
+    .int {
+        justify-content: flex-end;
+        
+    }
+    section {
+        width: 100%;
+        padding: 0;
+    }
+    .head-left-2 {
+        margin-right: 30px;
+    }
+    .skills-left  {
+        padding-right: 40px;
+    }
+    .border {
+        width: 200px;
+    }
+}    
+@media screen and (max-width: 600px) {
+    #wrapper {
+        min-width: 250px;
+        padding: 5px;
+    }
+    .social {
+        margin: 15px 0 0 0;
+    }
+    .fa-facebook-f {
+        font-size: 18px;
+    }
+    .fa-linkedin-in {
+        font-size: 18px;
+    }
+    #work-experience {
+        display: block;
+        padding: 0 0 15px 0;
+    }
+    #work-experience h2 {
+        transform: rotate(0deg);
+        padding-top: 8px;
+    }
+    section hr {
+        margin: 0;
+    }
+    .head-left {
+        display: block;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        border-radius: 0 0 50px 50px;
+    }
+    .head-left-1 {
+        display: block;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        border-radius: 0 0 50px 50px;
+    }
+    .head-left-2 {
+        display: block;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        border-radius: 0 0 50px 50px;
+    }
+    .skills {
+        display: block;
+        text-align: center;
+    }
+    .border {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .skills-left {
+        padding-right: 0;
+    }
+    .reference {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .reference article {
+        text-align: center;
+        border-bottom: 1px dotted #fff;
+        border-left: none;
+        border-right: none;
+        padding: 10px 0;
+        margin: 0 50px 15px 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #header img {
+        margin-right: 0;
+    }
+    .name h1 {
+        font-size: 18px;
+    }
+    .head {
+        margin: 5px 0;
+    }
+    .icon i {
+        font-size: 15px;
+    }
+    .fas.fa-bars {
+        font-size: 20px;
+        padding: 2px;
+    }    
+    .border {
+            width: 200px;
+        }
+    .reference article {
+        margin: 0;
+    }
+}

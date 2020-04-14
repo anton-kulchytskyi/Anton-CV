@@ -1,0 +1,297 @@
+body {
+    background: url(background.jpg);
+    font-family: 'Courier New', monospace;
+    color: #000;
+}
+#wrapper {
+    background: url(background.jpg);
+    margin: 0 auto 30px auto;
+    padding: 25px;
+    border: 3px solid #5f5f5f;
+    width: 900px;
+    box-shadow: 13px 10px 13px 0px #000;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #08243a;
+    margin-bottom: 20px;
+    display: none;
+}
+header img {
+    width: 15%;
+    height: 15%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    align-self: center;
+    margin: 10px;
+}
+.name-social {
+    display: block;
+    margin-top: 5px;
+}
+.name {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.name p {
+    margin: 0;
+}
+header .social {
+    margin-top: 15px;
+}
+header .contact {
+    padding: 25px 0 0 0;
+    display: block;
+    color: #fff;
+}
+#nav {
+    display: none;
+}
+main {
+    display: flex;
+}
+aside {
+    background-color: #08243a;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: 20px;
+}
+aside img {
+    width: 40%;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    align-self: center;
+    margin: 50px 0;
+}
+h1 {
+    margin: 0;
+    align-self: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.fa-facebook-f {
+    font-size: 24px;
+    color: #fff;
+}
+.fa-linkedin-in {
+    font-size: 24px;
+    padding-left: 15px;
+    color: #fff;
+}
+.fa-facebook-f:hover, .fa-linkedin-in:hover {
+    opacity: 0.7;
+}
+aside p {
+    margin: 0 0 50px 0;
+    align-self: center;
+}
+.head {
+    display: flex;
+    justify-content: flex-start;
+    background: #001429;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 5px;
+    margin: 20px 0 40px 0;
+}
+.head i {
+    padding: 0 20px;
+    align-self: center;
+}
+.head h3 {
+    align-self: center;
+    margin: 0;
+}
+.icon-text {
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+.icon {
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.icon i {
+    font-size: 20px;
+}
+.text p {
+    margin: 2px 0;
+}
+.languages-knowledge {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.languages {
+    padding-left: 30px;
+}
+.languages p {
+    margin: 0;
+    font-weight: 600;
+}
+.knowledge {
+    padding-right: 30px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-1 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.int {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+section {
+    background: #fff;
+    width: 65%;
+    padding: 30px 15px 15px 0;
+}
+#work-experience {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+#work-experience h2 {
+    margin: 0;
+    align-self: flex-end;
+    transform: rotate(270deg);
+    transform-origin: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 25px;
+}
+.head-left {
+    display: flex;
+    width: 30px;
+    background: #F87500;
+    border-radius: 0 50px 50px 0;
+}
+.head-left-1 {
+    display: flex;
+    width: 30px;
+    background: #92C715;
+    border-radius: 0px 50px 50px 0px;
+}
+.head-left-2 {
+    display: flex;
+    width: 30px;
+    background: #F40644;
+    border-radius: 0px 50px 50px 0px;
+}
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-weight: 600;
+}
+.date p {
+    margin: 0;
+}
+.about {
+    display: block;
+    width: 70%;
+}
+.edu {
+    margin: 0;
+}
+.edu-1{
+    margin: 0;
+}
+.about a:hover {
+    color: #92C715;
+}
+.about p {
+    margin: 0;
+}
+.about ul {
+    margin: 0;
+    list-style-type: square;
+}
+#hide1, #hide2, #hide3, #hide4, #hide5 {
+    display: none;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 5px 10px 0 0;
+    animation: open 2s;
+}
+@keyframes open {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.about a {
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+}
+.skills {
+    display: flex;
+    font-weight: 600;
+}
+.skills-left  {
+    padding-right: 30px;
+}
+.skills-left p {
+    margin-bottom: 0px;
+}
+.skills-right p {
+    margin-bottom: 0px;
+}
+.border {
+    width: 200px;
+    height: 10px;
+    background: #c1c1c1;
+    border: 1px solid #000;
+}
+.border hr {
+    margin: 0;
+    border: 5px solid #F40644;
+}
+footer {
+    background-color: #08243a;
+    color: #fff;
+}
+.reference {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.reference article {
+    text-align: center;
+    padding: 0 5px;
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+}
+.reference p {
+    margin: 0;
+}
