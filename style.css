@@ -42,11 +42,6 @@ header img {
 header .social {
     margin-top: 15px;
 }
-header .contact {
-    padding: 25px 0 0 0;
-    display: block;
-    color: #fff;
-}
 #nav {
     display: none;
 }
@@ -86,7 +81,12 @@ h1 {
     padding-left: 15px;
     color: #fff;
 }
-.fa-facebook-f:hover, .fa-linkedin-in:hover {
+.fa-github {
+    font-size: 24px;
+    padding-left: 15px;
+    color: #fff;
+}
+.fa-facebook-f:hover, .fa-linkedin-in:hover, .fa-github:hover {
     opacity: 0.7;
 }
 aside p {
@@ -218,27 +218,27 @@ section {
     display: block;
     width: 70%;
 }
-.edu {
+h4 {
     margin: 0;
-}
-.edu-1{
-    margin: 0;
-}
-.about a:hover {
-    color: #92C715;
 }
 .about p {
     margin: 0;
 }
-.about ul {
+.about a {
     margin: 0;
-    list-style-type: square;
+    color: #000;
+    text-decoration: none;
+}
+.about a:hover {
+    color: #92C715;
 }
 #hide1, #hide2, #hide3, #hide4, #hide5 {
     display: none;
+    background: #d1ef8c;
     text-indent: 50px;
     text-align: justify;
-    padding: 5px 10px 0 0;
+    padding: 5px;
+    margin: 5px;
     animation: open 2s;
 }
 @keyframes open {
@@ -249,11 +249,6 @@ section {
         opacity: 1;
     }
 }
-.about a {
-    margin: 0;
-    color: #000;
-    text-decoration: none;
-}
 .skills {
     display: flex;
     font-weight: 600;
@@ -261,10 +256,7 @@ section {
 .skills-left  {
     padding-right: 30px;
 }
-.skills-left p {
-    margin-bottom: 0px;
-}
-.skills-right p {
+.skills > p {
     margin-bottom: 0px;
 }
 .border {
@@ -295,3 +287,57 @@ footer {
 .reference p {
     margin: 0;
 }
+#modal {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal-content {
+    margin: 50px auto;
+    width: 50%;
+    animation: openModal 2s;
+}
+.modal-header {
+    background: #08243a;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.modal-header h3 {
+    padding-right: 15px;
+}
+#close {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+#close:hover,
+#close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-body {
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #08243a;
+}
+.modal-body p {
+    text-indent: 25px;
+    text-align: justify;
+}
+@keyframes openModal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 

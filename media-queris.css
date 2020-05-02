@@ -62,16 +62,12 @@
     .head h3 {
         margin-right: 10px;
     }
-    footer .head {
-        justify-content: flex-start;
-    }
     .icon-text {
         padding-right: 10px;
         justify-content: flex-end;
     }
     .languages-knowledge {
         justify-content: flex-end;
-        
     }
     .languages {
         padding-left: 0;
@@ -82,7 +78,6 @@
     }
     .int {
         justify-content: flex-end;
-        
     }
     section {
         width: 100%;
@@ -97,6 +92,9 @@
     .border {
         width: 200px;
     }
+    footer .head {
+        justify-content: flex-start;
+    }
 }    
 @media screen and (max-width: 600px) {
     #wrapper {
@@ -106,10 +104,7 @@
     .social {
         margin: 15px 0 0 0;
     }
-    .fa-facebook-f {
-        font-size: 18px;
-    }
-    .fa-linkedin-in {
+    .fa-facebook-f, .fa-linkedin-in, .fa-github {
         font-size: 18px;
     }
     #work-experience {
@@ -123,23 +118,7 @@
     section hr {
         margin: 0;
     }
-    .head-left {
-        display: block;
-        margin: 0 auto 10px auto;
-        text-align: center;
-        height: 40px;
-        width: 200px;
-        border-radius: 0 0 50px 50px;
-    }
-    .head-left-1 {
-        display: block;
-        margin: 0 auto 10px auto;
-        text-align: center;
-        height: 40px;
-        width: 200px;
-        border-radius: 0 0 50px 50px;
-    }
-    .head-left-2 {
+    .head-left, .head-left-1, .head-left-2 {
         display: block;
         margin: 0 auto 10px auto;
         text-align: center;
@@ -151,12 +130,12 @@
         display: block;
         text-align: center;
     }
+    .skills-left {
+        padding-right: 0;
+    }
     .border {
         margin: 0 auto;
         width: 300px;
-    }
-    .skills-left {
-        padding-right: 0;
     }
     .reference {
         display: block;
@@ -169,6 +148,9 @@
         border-right: none;
         padding: 10px 0;
         margin: 0 50px 15px 50px;
+    }
+    .modal-content {
+        width: 80%;
     }
 }
 @media screen and (max-width: 400px) {
@@ -189,8 +171,8 @@
         padding: 2px;
     }    
     .border {
-            width: 200px;
-        }
+        width: 200px;
+    }
     .reference article {
         margin: 0;
     }
